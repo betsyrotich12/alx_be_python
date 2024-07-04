@@ -9,5 +9,6 @@ def perform_operation(num1, num2, operation):
         case "divide":
             if num2 == 0:
                 print("Cannot divide by 0")
-            else:
-                return num1 / num2
+            elif num1 / num2:
+                return
+                
