@@ -8,12 +8,12 @@ def display_menu():
 
 
 def add_item(shopping_list):
-    item = input("Enter the name of item:")
+    item = input("Enter the item to add:")
     shopping_list.append(item)
     print(item, "added successfully")
 
 def remove_item(shopping_list):
-        item = input("Enter the name of the item")
+        item = input("Enter the item to remove")
         for item in shopping_list:
               if item:
                  shopping_list.remove(item)
