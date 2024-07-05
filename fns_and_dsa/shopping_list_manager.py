@@ -25,7 +25,7 @@ def view_item(shopping_list):
           if item:
                print("Item_name:", item)  
                return
-     print(name, "not found!")  
+     print(item, "not found!")  
                     
                  
               
