@@ -25,7 +25,7 @@ def main():
             # Display the shopping list
             for item in shopping_list:
                 if shopping_list:
-                    view_item(shopping_list)
+                    view_list(shopping_list)
                     pass
         elif choice == '4':
             print("Goodbye!")

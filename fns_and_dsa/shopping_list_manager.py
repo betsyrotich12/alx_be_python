@@ -20,7 +20,7 @@ def remove_item(shopping_list):
                  return
         print(item, "not found!") 
 
-def view_item(shopping_list):
+def view_list(shopping_list):
      if shopping_list:
           print("\nCurrent shopping list:")
      for item in shopping_list:
