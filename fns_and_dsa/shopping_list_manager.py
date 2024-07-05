@@ -1,4 +1,4 @@
-
+shopping_list = []
 def display_menu():
      print("Shopping List Manager")
      print("1. Add Item")
@@ -20,7 +20,7 @@ def remove_item(shopping_list):
                  return
         print(item, "not found!") 
 
-def view_list(shopping_list):
+def view_(shopping_list):
      if shopping_list:
           print("\nCurrent shopping list:")
      for item in shopping_list:
