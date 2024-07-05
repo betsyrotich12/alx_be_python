@@ -21,11 +21,12 @@ def remove_item(shopping_list):
         print(item, "not found!") 
 
 def view_item(shopping_list):
+     if shopping_list:
+          print("\nCurrent shopping list:")
      for item in shopping_list:
-          if item:
-               print("Item_name:", item)  
-               return
-     print(item, "not found!")  
+        print(item)  
+        return
+     print(item, "not found!")
                     
                  
               
