@@ -14,7 +14,6 @@ def main():
 
         if choice == '1':
             # Prompt for and add an item
-            print(input("Enter the item to add:"))
             add_item(shopping_list)
             pass
         elif choice == '2':
