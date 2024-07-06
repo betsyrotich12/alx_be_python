@@ -4,7 +4,7 @@ def main():
         temperature = float(input("Enter the temperature to convert:"))
     except ValueError:
         raise ValueError("Invalid temperature. Please enter a numeric value.")
-    unit = input("Is this temperature in Celsius or Farenheit? (C/F):")
+    unit = input("Is this temperature in Celsius or Fahrenheit? (C/F):")
 
     match unit:
         case "F":
