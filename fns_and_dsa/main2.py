@@ -1,10 +1,10 @@
 from temp_conversion_tool import *
 def main():
     try:
-        temperature = float(input("Enter the temperature to convert: "))
+        temperature = float(input("Enter the temperature to convert:"))
     except ValueError:
         raise ValueError("Invalid temperature. Please enter a numeric value.")
-    unit = input("Is this temperature in Celsius or Farenheit? (C/F): ")
+    unit = input("Is this temperature in Celsius or Farenheit? (C/F):")
 
     match unit:
         case "F":
